@@ -1,0 +1,80 @@
+04/02/2020 23:13:48 log ************Assessment 1**************
+04/02/2020 23:13:48 log Launching the website
+04/02/2020 23:13:55 log Hover over the first avatar
+04/02/2020 23:13:56 log Test passed: Avatar name is same as expected
+
+04/02/2020 23:13:56 log ************Assessment  2**************
+04/02/2020 23:13:56 log Launching the website
+04/02/2020 23:13:57 log Clicking on the second button on the page
+04/02/2020 23:13:57 log Javascript alert appears
+04/02/2020 23:13:57 log Alert box with message: I am a JS Confirm is displayed.
+04/02/2020 23:13:57 log Click OK from the alert box
+04/02/2020 23:13:57 log Test passed: OK button is verified
+04/02/2020 23:13:57 log Test passed: CANCEL button is verified
+
+04/02/2020 23:13:57 log ************Assessment  3**************
+04/02/2020 23:13:57 log Launching the website
+04/02/2020 23:13:58 log Opening a website
+04/02/2020 23:13:58 log Press space key
+04/02/2020 23:13:58 log Validate the space key entered from the result text appearing on the screen
+04/02/2020 23:13:58 log You entered: SPACE key
+04/02/2020 23:13:58 log Test Passed: Validation for Space key is successfully tested
+04/02/2020 23:13:58 log Press left key
+04/02/2020 23:13:59 log Validate the left key entered from the result text appearing on the screen
+04/02/2020 23:13:59 log You entered: LEFT key
+04/02/2020 23:13:59 log Test Passed: Validation for left arrow key is successfully tested
+
+04/02/2020 23:13:59 log ************Assessment  4**************
+04/02/2020 23:13:59 log Launching the website
+04/02/2020 23:14:00 log Click to open a new window
+04/02/2020 23:14:00 log Switch to the new window
+04/02/2020 23:14:00 log Checking the page title of new window
+04/02/2020 23:14:04 log Test Passed: Title of the child window is :New Window
+04/02/2020 23:14:04 log Closing the new window
+04/02/2020 23:14:04 log Switching to the main window
+
+04/02/2020 23:14:04 log ************Assessment  5**************
+04/02/2020 23:14:04 log Launching the website
+04/02/2020 23:14:04 log Right click the area that renders context menu
+04/02/2020 23:14:05 log Grab the text from javascript alert box
+04/02/2020 23:14:05 log Test Passed: Context menu value is not matching the expected value
+04/02/2020 23:14:05 log Click on Ok button of alert box
+
+04/02/2020 23:14:05 log ************Assessment  6**************
+04/02/2020 23:14:05 log Launching the website
+04/02/2020 23:14:05 log Sorted Strings [Bach, Conway, Doe, Smith]
+04/02/2020 23:14:05 log Clicking on the first column heading
+04/02/2020 23:14:06 log Grabing the values from the column
+04/02/2020 23:14:06 log Test Passed: Column values are sorted in ascending order
+
+04/02/2020 23:14:07 log ************Assessment  8**************
+04/02/2020 23:14:07 log Launching the website
+04/02/2020 23:14:08 log Switch to top frameset
+04/02/2020 23:14:08 log Number of frames present inside the top frame 3
+04/02/2020 23:14:11 log Actual value received from top left frame: LEFT
+04/02/2020 23:14:11 log Top frame elements i.e. left, middle and right is verfied
+04/02/2020 23:14:14 log Actual value received from top middle frame: MIDDLE
+04/02/2020 23:14:14 log Top frame elements i.e. left, middle and right is verfied
+04/02/2020 23:14:17 log Actual value received from top right frame: RIGHT
+04/02/2020 23:14:17 log Top frame elements i.e. left, middle and right is verfied
+04/02/2020 23:14:17 log Actual value received from bottom frame: BOTTOM
+04/02/2020 23:14:17 log Bottom frame is verified
+04/02/2020 23:14:17 log Test Passed: All the elements of the frame has been verified
+
+04/02/2020 23:14:17 log ************Assessment  9**************
+04/02/2020 23:14:17 log Launching the website
+04/02/2020 23:14:19 log Switch to the frame that contains the TinyMCE editor
+04/02/2020 23:14:19 log Find and store the text found in the editor in a string value
+04/02/2020 23:14:19 log Clear the text in the editor
+04/02/2020 23:14:19 log Input the new text in the editor
+04/02/2020 23:14:19 log The new and old value in the editor is not matching
+04/02/2020 23:14:19 log Switching to the top level of the page
+04/02/2020 23:14:19 log Grab the text from the top level of the page
+04/02/2020 23:14:20 log Test Passed: The actual and expected value on the top of page is matching
+
+04/02/2020 23:14:20 log ************Assessment  10**************
+04/02/2020 23:14:20 log Launching the website
+04/02/2020 23:14:20 log Grab the contents displayed in the dropdown list
+04/02/2020 23:14:20 log Test Passed: The target element of the dropdown menu is not enabled
+
+04/02/2020 23:14:20 log Closing all the browsers opened

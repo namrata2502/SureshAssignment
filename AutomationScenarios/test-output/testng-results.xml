@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43741" started-at="2020-02-04T17:43:37Z" finished-at="2020-02-04T17:44:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43741" started-at="2020-02-04T17:43:37Z" finished-at="2020-02-04T17:44:21Z">
+      <class name="demos.Assignment">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demos.Assignment@59ec2012]" name="setup" is-config="true" duration-ms="11111" started-at="2020-02-04T23:13:37Z" finished-at="2020-02-04T23:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firstAvatar()[pri:1, instance:demos.Assignment@59ec2012]" name="firstAvatar" duration-ms="8259" started-at="2020-02-04T23:13:48Z" finished-at="2020-02-04T23:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstAvatar -->
+        <test-method status="PASS" signature="jsConfirmAlerts()[pri:2, instance:demos.Assignment@59ec2012]" name="jsConfirmAlerts" duration-ms="676" started-at="2020-02-04T23:13:56Z" finished-at="2020-02-04T23:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsConfirmAlerts -->
+        <test-method status="PASS" signature="keyEvent()[pri:3, instance:demos.Assignment@59ec2012]" name="keyEvent" duration-ms="2196" started-at="2020-02-04T23:13:57Z" finished-at="2020-02-04T23:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyEvent -->
+        <test-method status="PASS" signature="windowSwitch()[pri:4, instance:demos.Assignment@59ec2012]" name="windowSwitch" duration-ms="4648" started-at="2020-02-04T23:13:59Z" finished-at="2020-02-04T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowSwitch -->
+        <test-method status="PASS" signature="contextClick()[pri:5, instance:demos.Assignment@59ec2012]" name="contextClick" duration-ms="680" started-at="2020-02-04T23:14:04Z" finished-at="2020-02-04T23:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextClick -->
+        <test-method status="PASS" signature="sorting()[pri:6, instance:demos.Assignment@59ec2012]" name="sorting" duration-ms="1018" started-at="2020-02-04T23:14:05Z" finished-at="2020-02-04T23:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method status="FAIL" signature="snapshot()[pri:7, instance:demos.Assignment@59ec2012]" name="snapshot" duration-ms="1018" started-at="2020-02-04T23:14:06Z" finished-at="2020-02-04T23:14:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at demos.Assignment.snapshot(Assignment.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- snapshot -->
+        <test-method status="PASS" signature="nestedFrames()[pri:8, instance:demos.Assignment@59ec2012]" name="nestedFrames" duration-ms="10413" started-at="2020-02-04T23:14:07Z" finished-at="2020-02-04T23:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedFrames -->
+        <test-method status="PASS" signature="editorFrame()[pri:9, instance:demos.Assignment@59ec2012]" name="editorFrame" duration-ms="2440" started-at="2020-02-04T23:14:17Z" finished-at="2020-02-04T23:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editorFrame -->
+        <test-method status="PASS" signature="dropdown()[pri:10, instance:demos.Assignment@59ec2012]" name="dropdown" duration-ms="454" started-at="2020-02-04T23:14:20Z" finished-at="2020-02-04T23:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:demos.Assignment@59ec2012]" name="teadDown" is-config="true" duration-ms="692" started-at="2020-02-04T23:14:20Z" finished-at="2020-02-04T23:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- demos.Assignment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
